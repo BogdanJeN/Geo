@@ -4,3 +4,6 @@
 #Dataset
 example_dataset.geojson
 updated_dataset.geojson
+output_polygon.geojson
+polygon.geojson
+output_image.tif
