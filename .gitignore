@@ -7,3 +7,25 @@ updated_dataset.geojson
 output_polygon.geojson
 polygon.geojson
 output_image.tif
+
+#Image
+cropped_image.tif
+resaved_image.jpg
+resaved_image.jpg.aux.xml
+polygon1337.geojson
+polygon1337.qmd
+resaved_image.png
+resaved_image.png.aux.xml
+
+#Incoming data
+soil_data
+
+clay.tif
+density.tif
+sand.tif
+
+soil_moisture.tif
+
+field_data.geojson
+field_centroids_geojson
+
