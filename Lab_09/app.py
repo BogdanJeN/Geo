@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 import numpy as np
 import rasterio
 import geopandas as gpd
@@ -8,6 +8,10 @@ app = Flask(__name__)
 file_path = '../images/soil_moisture.tif'
 with rasterio.open(file_path) as src:
     bbox = src.bounds
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 @app.route('/get_image_bbox')
 def get_image_bbox():
